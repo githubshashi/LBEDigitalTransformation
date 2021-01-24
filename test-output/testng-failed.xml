@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <groups>
+      <run>
+        <include name="Apply_for_self"/>
+        <include name="Dynamics_CRM"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="lbe.digitaltransformation.Dynamics.Test.TTC01_SearchCaseNumber_CRM"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Apply_for_self"/>
+        <include name="Dynamics_CRM"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="lbe.digitaltransformation.Dynamics.Test.TTC01_SearchCaseNumber_CRM">
+        <methods>
+          <include name="BrowserLaunch_ReportInitiate"/>
+          <include name="ToEndReport"/>
+          <include name="ToStartReport"/>
+          <include name="BrowserClosed_ReportGenerated"/>
+          <include name="Search_for_CaseNumber"/>
+          <include name="CouncilWebsiteOpened"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- lbe.digitaltransformation.Dynamics.Test.TTC01_SearchCaseNumber_CRM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

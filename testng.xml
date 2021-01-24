@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+
+		
+	
+  <test name="Test">  
+  <groups>		
+   <run>		
+     <include name="Apply_for_self"/>  
+  <!--  <include name="Onbehalf_of_SomeOneElse"/>  -->
+  <include name="Dynamics_CRM"/>  
+	</run>		
+  </groups>
+  
+     <classes>		
+        
+       	<!--	 <class name="lbe.digitaltransformation.Myaccount.Test.TC01_ClassD_ValidationCheck_SubmitCase"/>    -->
+        <!--	 <class name="lbe.digitaltransformation.Myaccount.Test.TC02_ClassV_ValidationCheck_SubmitCase"/>   -->
+        <!--     <class name="lbe.digitaltransformation.Myaccount.Test.TC03_ClassG_ValidationCheck_SubmitCase"/>     -->
+        <!--  <class name="lbe.digitaltransformation.Myaccount.Test.TC04_ClassI_ValidationCheck_SubmitCase"/>       -->
+  	 	<!--	 <class name="lbe.digitaltransformation.Myaccount.Test.TC05_ClassL_ValidationCheck_SubmitCase"/>   -->
+   	 	<!--	 <class name="lbe.digitaltransformation.Myaccount.Test.TC06_ClassF_ValidationCheck_SubmitCase"/>     -->
+   	 	<!--	 <class name="lbe.digitaltransformation.Myaccount.Test.TC07_ClassB_ValidationCheck_SubmitCase"/>      -->
+   		<!--	 <class name="lbe.digitaltransformation.Myaccount.Test.TC08_ClassK_ValidationCheck_SubmitCase"/>    -->
+   		<!--	 <class name="lbe.digitaltransformation.Myaccount.Test.TC09_ClassR_ValidationCheck_SubmitCase"/>     -->
+   
+   
+    <class name="lbe.digitaltransformation.Dynamics.Test.TTC01_SearchCaseNumber_CRM"/>  
+   
+   
+    </classes>
+    
+    
+   
+  </test> <!-- Test --> 
+
+  
+</suite> <!-- Suite -->
+
+
